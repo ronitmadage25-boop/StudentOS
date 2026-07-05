@@ -37,6 +37,7 @@ dependencies:
   shared_preferences: ^2.3.2
   file_picker: ^8.1.7
   syncfusion_flutter_pdfviewer: ^27.1.48
+  firebase_core: ^4.11.0
 
 dev_dependencies:
   flutter_test:

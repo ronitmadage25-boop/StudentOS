@@ -1,13 +1,20 @@
 import 'package:flutter/material.dart';
+import 'package:firebase_core/firebase_core.dart';
+import 'firebase_options.dart';
 import 'core/core.dart';
 import 'widgets/main_navigation.dart';
 
 /// Entry point for the StudentOS application.
 ///
-/// Configures the [MaterialApp] with the centralized [AppTheme]
+/// Initializes Firebase and configures the [MaterialApp] with the centralized [AppTheme]
 /// and routes to the [MainNavigation] shell.
-void main() {
+Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
+  
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+  );
+  
   runApp(const StudentOSApp());
 }
 

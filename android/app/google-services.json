@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "101536841607",
+    "project_id": "studentos-8d2ce",
+    "storage_bucket": "studentos-8d2ce.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:101536841607:android:e1115d3a0b7fb33d6a1d22",
+        "android_client_info": {
+          "package_name": "com.ronit.studentos.studentos"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVaBRJBqfjQLFHL7xu3hxYdUtjFNmFdSI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
